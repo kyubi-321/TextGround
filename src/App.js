@@ -43,6 +43,7 @@ function App() {
     <Navbar title="TextGround" mode={mode} toggleMode={toggleMode} key={new Date()} />
     <Alert alert={alert}/>
     <div className="container my-3">
+    <TextForm showAlert={showAlert} heading="Try TextGround - word counter, character counter, remove extra spaces" mode={mode}/>
     <Switch>
     {/* /users --> Component 1
         /users/home --> Component 2 */}
